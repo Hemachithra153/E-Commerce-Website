@@ -918,11 +918,13 @@ footer .copyright{
         flex-direction: column;
         align-items: flex-start;    
     }
-    #blog .blog-img{
+    #blog .blog-img {
         width: 100%;
+        max-width: 600px; /* Set a maximum width */
         margin-right: 0px;
         margin-bottom: 30px;
     }
+    
     #blog .blog-details{
         width: 100%;
     }
