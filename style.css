@@ -734,7 +734,27 @@ footer .copyright{
     z-index: -9;
 }
 
+
 /* About page */
+
+#page-header.about-header{
+    background-image: url("images/banner/bg9.jpg");
+}
+
+#about-head{
+    display: flex;
+    align-items: center;
+}
+
+#about-head img{
+    width: 50%;
+    height: auto;
+}
+
+#about-head div{
+    padding-left: 40px;
+}
+
 /* Contact page*/
 /* Cart page*/
 
