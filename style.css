@@ -892,12 +892,18 @@ font-size: 12px;
 }
 
 /* Cart page*/
+
+#cart {
+   overflow-x: auto;
+}
+
 #cart table{
     width: 100%;
     border-collapse: collapse;
     table-layout: fixed;
     white-space: nowrap;
 }
+
 
 #cart table img{
     width: 70px;
@@ -951,6 +957,66 @@ font-size: 12px;
     font-size: 13px;
 }
 
+#cart-add{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#coupon{
+    width: 50%;
+    margin-bottom: 30px;
+}
+ 
+#coupon h3 {
+      padding-bottom: 15px;
+      padding-left: 40px;
+}
+
+
+
+#coupon input {
+    padding: 10px 20px;
+    outline: none;
+    width: 60%;
+    margin-right: 10px;
+    margin-left: 35px;
+    border: 1px  solid #e2e9e1;
+}
+
+#coupon button,
+#subtotal button{
+     background-color: #088178;
+     color: #fff;
+     padding: 12px 20px;
+}
+
+#subtotal{
+    width: 50%;
+    margin-bottom: 30px;
+    border: 1px  solid #e2e9e1;
+    padding: 30px;
+}
+#subtotal h3 {
+    padding-bottom: 15px;
+    padding-left: 35px;
+    margin-left: -25px;
+}
+
+
+#subtotal table{
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+#subtotal table td{
+    width: 50%;
+    border: 1px  solid #e2e9e1;
+    margin-bottom: 10px;
+    font-size: 13px;
+    padding: 15px;
+}
 
 /*Start Media Query*/
 @media (max-width:799px){
@@ -1185,6 +1251,20 @@ font-size: 12px;
     #form-details form{
         width: 100%;
         margin-bottom: 30px;
+    }
+
+    /*Cart Page*/
+    #cart-add{
+        flex-direction: column;
+    }
+
+    #coupon {
+        width: 100%;
+    }
+
+    #subtotal {
+        width: 100%;
+        padding: 20px;
     }
     
 }
