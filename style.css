@@ -738,7 +738,8 @@ footer .copyright{
 /* About page */
 
 #page-header.about-header{
-    background-image: url("images/banner/bg9.png");
+    background-image: url("https://img.freepik.com/premium-vector/modern-abstract-background-with-waves-element-pastel-color_8221-1429.jpg?w=1060");
+    
 }
 
 #about-head{
@@ -781,6 +782,10 @@ footer .copyright{
     align-items: center;
     justify-content: space-between;
 }
+
+#page-header.about-contact{
+    background-image: url("https://img.freepik.com/free-photo/pink-school-tools-colored-surface_23-2148194645.jpg?t=st=1731489961~exp=1731493561~hmac=507c42871e692040f814b9450946c8ad930b5732988b56e639981522f222e296&w=996");   
+} 
 
 #contact-details .details{
     width: 40%;
@@ -895,6 +900,10 @@ font-size: 12px;
 
 #cart {
    overflow-x: auto;
+}
+
+#page-header.about-cart{
+    background-image: url("images/banner/bg9.png");
 }
 
 #cart table{
@@ -1126,6 +1135,9 @@ font-size: 12px;
         width: 50%;
         
     }
+    #page-header.about-contact{
+        background-image: url("https://img.freepik.com/free-photo/top-view-blue-monday-concept-composition-with-telephone_23-2149139104.jpg?t=st=1731491665~exp=1731495265~hmac=41cf4fc222987e9743f97f08a16ed570e427335829f96f2ac46769d765542a14&w=996");
+    }
 }
 
 
@@ -1265,6 +1277,10 @@ font-size: 12px;
     #subtotal {
         width: 100%;
         padding: 20px;
+    }
+    
+    #page-header.about-cart{
+        background-image: url("https://img.freepik.com/premium-photo/top-view-laptop-black-friday-promotion-sale-words-lightbox-gift-boxes-trolley-credit-card-smartphone-flat-lay_94725-622.jpg?w=996");
     }
     
 }
